@@ -53,7 +53,6 @@ showmysqlerror( );
 		osMap.setCenter( new OpenSpace.MapPoint( numref[ 0 ], numref[ 1 ] ), <?php if ($_GET['zoom'] == "") { echo "3"; } else { echo $_GET['zoom'];} ?>);
 
 <?php
-//printBothies();
 printpoints();
 ?>
 //		document.getElementById( "linkto" ).onclick = function()
