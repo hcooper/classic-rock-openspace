@@ -37,6 +37,8 @@ showmysqlerror( );
 <head>
 <title>Classic Rock Routes</title>
 
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" /> 
+
 <script type="text/javascript" src="http://openspace.ordnancesurvey.co.uk/osmapapi/openspace.js?key=77F6109703989267E0405F0AF060229B"></script>
 
 <script type="text/javascript" src="functions.js"></script>
@@ -92,9 +94,10 @@ div#grform { position:fixed;top:30px;left:90px;z-index:1000; }
 <form>
 <input type="text" name="gr" id="gr"><input type="submit" value="Submit Grid Ref">
 </form>
-<!--<button id="linkto">Link to This Page</button>-->
 </div>
-<div id="map" style="width:100%; height:100%; border: 1px solid black;"></div>
+<div id="map" style="width:100%; height:100%; border: 1px solid black; z-index:2"></div>
+
+<div id="box1">This is Box1</div>
 
 </body>
 
